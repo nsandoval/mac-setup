@@ -12,15 +12,31 @@ brew tap homebrew/cask-versions
 ```bash
 brew install mas
 ```
-## Terminal & Shell
+## Terminal & Shell & iTerm2
 ```bash
 # Terminal App
 brew cask install iterm2
+```
+Get the iTerm color settings (patched version to fix the bright black value) and Font
 
-# Shell
+* [Solarized Dark theme](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors) (Save Link as...)
+* [Meslo LG M DZ Regular for Powerline.ttf](https://raw.githubusercontent.com/powerline/fonts/master/Meslo%20Dotted/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.ttf) (Save Link as...)
+
+iTerm2 + Oh My Zsh + Solarized color scheme + Meslo powerline font->
+[https://gist.github.com/kevin-smets/8568070](https://gist.github.com/kevin-smets/8568070)
+
+```bash
+# zsh
 brew install zsh
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+#plugins
 brew install zsh-syntax-highlighting
 brew install zsh-autosuggestions
+echo "source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 # Don't show the user in the prompt
 echo "DEFAULT_USER=\`whoami\`" >> ~/.zshrc
@@ -28,11 +44,7 @@ echo "DEFAULT_USER=\`whoami\`" >> ~/.zshrc
 # Remove the 'last login' message
 touch ~/.hushlogin
 
-#iTerm2 + Oh My Zsh + Solarized color scheme + Meslo powerline font
-https://gist.github.com/kevin-smets/8568070
-
 ```
-
 ### Tweaking OSX Settings
 ```bash
 # Finder: show hidden files by default
