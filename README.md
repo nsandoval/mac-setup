@@ -6,7 +6,7 @@ New machine cheatsheet
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew cask
 brew tap buo/cask-upgrade
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 ```
 ## Mac App Store
 ```bash
