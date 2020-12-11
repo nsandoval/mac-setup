@@ -90,6 +90,8 @@ brew cask install the-unarchiver
 # VLC
 brew cask install vlc
 
+# coconutbattery
+brew cask install coconutbattery
 ```
 
 ### Productivity
@@ -123,7 +125,8 @@ brew cask install sublime-text
 brew cask install visual-studio-code
 
 # Virtual
-brew cask install virtualbox
+brew install --cask virtualbox
+brew install --cask virtualbox-extension-pack
 
 # API development
 brew cask install postman
@@ -159,6 +162,9 @@ brew install bat
 
 # Tree
 brew install tree
+
+# thefuck
+brew install thefuck
 
 # AWS CLI
 brew install awscli
