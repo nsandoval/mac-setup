@@ -15,7 +15,7 @@ brew install mas
 ## Terminal & Shell & iTerm2
 ```bash
 # Terminal App
-brew cask install iterm2
+brew install --cask iterm2
 ```
 Get the iTerm color settings (patched version to fix the bright black value) and Font
 
@@ -76,43 +76,43 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 ### Common apps
 ```bash
 # Default browser. I like Chrome.
-brew cask install google-chrome
+brew install --cask google-chrome
 
 # Authy
-brew cask install authy
+brew install --cask authy
 
 # Spotify
-brew cask install spotify
+brew install --cask spotify
 
 # The Unarchiver
-brew cask install the-unarchiver
+brew install --cask the-unarchiver
 
 # VLC
-brew cask install vlc
+brew install --cask vlc
 
 # coconutbattery
-brew cask install coconutbattery
+brew install --cask coconutbattery
 ```
 
 ### Productivity
 ```bash
 # Telegram
-brew cask install telegram
+brew install --cask telegram
 
 # Slack
-brew cask install slack
+brew install --cask slack
 
 # Skitch
-brew cask install skitch
+brew install --cask skitch
 
 # Spectacle
-brew cask install spectacle
+brew install --cask spectacle
 
 # Itsycal
-brew cask install itsycal
+brew install --cask itsycal
 
 # RecordIt
-brew cask install recordit
+brew install --cask recordit
 
 # Amphetamine
 mas install 937984704
@@ -121,38 +121,38 @@ mas install 937984704
 ### Development
 ```bash
 # Text editors/IDEs
-brew cask install sublime-text
-brew cask install visual-studio-code
+brew install --cask sublime-text
+brew install --cask visual-studio-code
 
 # Virtual
 brew install --cask virtualbox
 brew install --cask virtualbox-extension-pack
 
 # API development
-brew cask install postman
-brew cask install paw
+brew install --cask postman
+brew install --cask paw
 
 # Charles
-brew cask install charles
+brew install --cask charles
 
 # Docker
-brew cask install docker
-brew cask install kitematic
+brew install --cask docker
+brew install --cask kitematic
 
 # Gas Mask
-brew cask install gas-mask
+brew install --cask gas-mask
 
 # Ngrok
-brew cask install ngrok
+brew install --cask ngrok
 
 # Cloud storage and related
-brew cask install cyberduck
+brew install --cask cyberduck
 
 # Databases
-brew cask install sequel-pro
+brew install --cask sequel-pro
 
 # VPS
-brew cask install tunnelblick
+brew install --cask tunnelblick
 
 # JQ
 brew install jq
@@ -186,10 +186,10 @@ brew install anaconda
 ### Java
 ```bash
 # JetBrains
-brew cask install intellij-idea
+brew install --cask intellij-idea
 
 # Java
-brew cask install java8
+brew install --cask java8
 
 # Tomcat
 brew install tomcat
