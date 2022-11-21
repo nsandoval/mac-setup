@@ -3,10 +3,7 @@ New machine cheatsheet
 
 ## Homebrew & cask
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew cask
-brew tap buo/cask-upgrade
-brew tap homebrew/cask-versions
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ## Mac App Store
 ```bash
@@ -35,8 +32,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #plugins
 brew install zsh-syntax-highlighting
 brew install zsh-autosuggestions
-echo "source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
-echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+echo "source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo "source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 # Don't show the user in the prompt
 echo "DEFAULT_USER=\`whoami\`" >> ~/.zshrc
@@ -154,6 +151,11 @@ brew install --cask sequel-pro
 # VPS
 brew install --cask tunnelblick
 
+```
+
+### CLI
+```bash
+
 # JQ
 brew install jq
 
@@ -208,3 +210,4 @@ brew install cocoapods
 - https://chrome.google.com/webstore/detail/quick-qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp
 - https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb
 - https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg
+- https://chrome.google.com/webstore/detail/fdpohaocaechififmbbbbbknoalclacl
