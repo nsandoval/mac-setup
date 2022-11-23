@@ -89,6 +89,9 @@ brew install --cask vlc
 
 # coconutbattery
 brew install --cask coconutbattery
+
+# KeyboardCleanTool
+brew install KeyboardCleanTool
 ```
 
 ### Productivity
